@@ -1,0 +1,12 @@
+{
+    "rotation_speed_drums": 0.1,
+    "rotation_speed_bass": 0.1,
+    "rotation_speed_other": 0.1,
+    "rotate_vocals": false,
+    "vocal_fixed_angle_deg": 0.0,
+    "lfe_cutoff": 120.0,
+    "enable_drums": true,
+    "enable_bass": true,
+    "enable_other": true,
+    "random_seed": 42.0
+}
