@@ -25,5 +25,5 @@
 
 1. **克隆仓库**
    ```bash
-   git clone https://github.com/ryamcold/generate_71.git
-   cd generate_71
+   git clone https://github.com/ryamcold/-generate_71.git
+   cd -generate_71
