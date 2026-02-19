@@ -25,5 +25,5 @@
 
 1. **克隆仓库**
    ```bash
-   git clone https://github.com/您的用户名/您的仓库名.git
-   cd 您的仓库名
+   git clone https://github.com/ryamcold/generate_71.git
+   cd generate_71
