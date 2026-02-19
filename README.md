@@ -1,2 +1,29 @@
-# -generate_71
-A 7.1-channel music generation tool that can be edited in python
+# 智能7.1声道音乐生成器
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+这是一个基于深度学习音源分离和Ambisonics空间音频技术的Python工具，可以将普通立体声音乐自动转换为7.1环绕声，并智能分配乐器到不同声道，实现动态环绕效果。
+
+## ✨ 特性
+
+- **自动音源分离**：使用Demucs模型分离人声、鼓、贝斯和其他乐器。
+- **智能环绕预设**：根据音频能量特征自动选择旋转模式，或强制指定预设。
+- **动态旋转**：鼓、贝斯、其他乐器在7.1声道中独立旋转，速度可正可负（顺时针/逆时针）。
+- **人声固定**：人声始终保留在前方左右声道，确保清晰度。
+- **Ambisonics处理**：采用一阶Ambisonics编码解码，实现平滑自然的声像移动。
+- **LFE通道**：提取鼓和贝斯的低频成分送入低音炮。
+- **批量处理**：支持批量转换文件夹内所有音频文件。
+- **GPU加速**：自动检测CUDA并使用GPU加速处理。
+
+## 📋 系统要求
+
+- Python 3.8 或更高版本
+- 操作系统：Windows / macOS / Linux
+- 可选：NVIDIA GPU（CUDA）以加速处理
+
+## 🔧 安装
+
+1. **克隆仓库**
+   ```bash
+   git clone https://github.com/您的用户名/您的仓库名.git
+   cd 您的仓库名
