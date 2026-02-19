@@ -1,9 +1,9 @@
-# 7.1 环绕声生成器
+# generate_71 环绕声生成器
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub release](https://img.shields.io/github/v/release/yourname/7.1-surround-generator)](https://github.com/yourname/7.1-surround-generator/releases)
-[![Downloads](https://img.shields.io/github/downloads/yourname/7.1-surround-generator/total)](https://github.com/yourname/7.1-surround-generator/releases)
+[![GitHub release](https://img.shields.io/github/v/release/ryamcold/generate_71)](https://github.com/ryamcold/generate_71/releases)
+[![Downloads](https://img.shields.io/github/downloads/ryamcold/generate_71/total)](https://github.com/ryamcold/generate_71/releases)
 
 **将普通立体声音乐智能转换为 7.1 声道环绕声，体验沉浸式音频效果。**
 
@@ -45,8 +45,8 @@
 
 1. **下载本项目**：
    ```bash
-   git clone https://github.com/yourname/7.1-surround-generator.git
-   cd 7.1-surround-generator
+   git clone https://github.com/ryamcold/generate_71.git
+   cd generate_71
    ```
 
 2. **直接运行主脚本**：
